@@ -4,7 +4,7 @@ const fs = require("fs");
 const readFileSync = fs.readFileSync;
 
 const broadcastTransaction = async rawTx => {
-  const broadcastUrl = "https://api.etherscan.io/api";
+  const broadcastUrl = "https://kovan.etherscan.io/api";
   const data = new FormData();
   data.append("module", "proxy");
   data.append("action", "eth_sendRawTransaction");
