@@ -1,28 +1,11 @@
 {
   "name": "blockhain-workshop",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ZeeCoder/blockhain-workshop.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ZeeCoder/blockhain-workshop/issues"
-  },
-  "homepage": "https://github.com/ZeeCoder/blockhain-workshop#readme",
-  "dependencies": {
-    "bitcore-lib": "^0.15.0",
-    "isomorphic-fetch": "^2.2.1",
-    "isomorphic-form-data": "^1.0.0",
-    "lerna": "^2.8.0",
-    "prettier": "^1.10.2",
-    "web3-eth-accounts": "^1.0.0-beta.28"
+  "repository": "git@github.com:ZeeCoder/blockhain-workshop.git",
+  "author": "Viktor Hubert <rpgmorpheus@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.10.2"
   }
 }
